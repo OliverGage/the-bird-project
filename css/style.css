@@ -1,0 +1,245 @@
+html {
+  font-family: 'AdobeGaramondW01-Regula', georgia, serif;
+  font-size: 17px;
+  line-height: 1.5em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+    height: 100%;
+        overflow-x: hidden;
+}
+
+header {
+  background-color: #FCD33A;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  height: 100vh;
+}
+
+
+
+img {
+  height: 85vh;
+  margin: 0;
+  padding: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+div.headlines {
+  padding-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 10vw;
+  color: #687D4d;
+}
+
+h2 {
+    font-size: 3vw;
+  margin: 1em 0 0.8em;
+  color: #53633E;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.7vw;
+}
+
+
+h4, h6 {
+  font-weight: normal;
+}
+
+h4 {
+  margin: 1em 1em;
+  font-size: 3.5vw;
+}
+
+h6 {
+  margin: 0;
+  font-size: 2.5vw;
+  font-style: italic;
+}
+
+    div.headlines2 {
+    float: right;
+    width: 45vw;
+    padding: 2vh 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #FCD33A;
+  }
+
+
+
+   
+
+header img {
+    float: left;
+    height: 100vh;
+    width: 48vw;
+  }
+
+  div.headlines {
+    float: right;
+    width: 45vw;
+    height: 90vh;
+    padding: 2vh 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.headlines div {
+    margin: auto;
+  }
+
+    
+    
+  h1 {
+    margin-top: 0;
+    font-size: 5vw;
+  }
+
+  h4 {
+    font-size: 1.8vw;
+  }
+
+  h6 {
+    margin: 0.5em 0;
+    font-size: 1.3vw;
+    font-style: italic;
+  }
+}
+#section {
+  clear: both;
+  padding: 2% 5% 2% 5%;
+  background-color: white;
+}
+
+}
+section p:first-child {
+  margin-top: 0;
+}
+
+
+
+footer {
+  text-align: center;
+}
+
+#quote {
+    
+    background-color: #FCD33A;
+    float: right;
+    width: 50%;
+    color: #53633E;
+}
+
+#break1 {
+    background-color: aqua;
+    width: 100%;
+}
+
+
+
+#insert1 {
+    background: url(../Images/forest1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    padding: 0; 
+}
+    
+
+
+
+
+
+/**
+#insert2 {
+    background: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height:309px;
+    margin: 0;
+    padding: 0; 
+}
+**/
+
+
+
+#content1 {
+
+    text-align:justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#backimg {
+    
+     background: url(../Images/cloth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media and screen (max-width: 600px)    {
+     
+    #insert1 {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    
+    #insert2 {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    
+    header img{
+        display: block;
+        float: none;
+        width:100%;
+    }
+    
+    .headlines  {
+        display: block;
+        float: none;
+        
+        
+    }
+}
+
