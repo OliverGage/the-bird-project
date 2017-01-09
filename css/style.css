@@ -39,14 +39,14 @@ h1 {
 }
 
 h2 {
-    font-size: 3vw;
+    font-size:1.em;
   margin: 1em 0 0.8em;
   color: #53633E;
-    padding-bottom: 0.5em;
+    line-height: 2em;
 }
 
 h3 {
-    font-size: 1.7vw;
+    font-size: 0.8em;
 }
 
 
@@ -75,7 +75,11 @@ h6 {
     background-color: #FCD33A;
   }
 
-
+p {
+    font-size: 0.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 
    
 
@@ -114,6 +118,26 @@ header img {
     font-size: 1.3vw;
     font-style: italic;
   }
+
+h7 {
+    margin-left: 1em;
+    font-size: 1em;
+    font-style: italic;
+    margin-left: 1em;
+    margin-right: 1em;
+    float: right;
+  }
+
+h8 {
+    font-size:1.6em;
+  margin: 1em 0 0.8em;
+  color: #53633E;
+    line-height: 2em;
+
+    
+}
+
+
 }
 #section {
   clear: both;
@@ -140,15 +164,12 @@ footer {
     color: #53633E;
 }
 
-#break1 {
-    background-color: aqua;
-    width: 100%;
-}
+
 
 
 
 #insert1 {
-    background: url(../Images/forest1.jpg);
+    background: url(../Images/forest1.png);
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
@@ -157,24 +178,47 @@ footer {
     margin: 0;
     padding: 0; 
 }
-    
 
-
-
-
-
-/**
-#insert2 {
-    background: url(../Images/background.jpg);
+#img2 {
+    background: url(../Images/bent-billiard-pipe.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    float: left;
-    width: 50%;
-    height:309px;
+    width: 100%;
+    height: 450px;
     margin: 0;
     padding: 0; 
 }
-**/
+
+
+
+#imgquote {
+    
+    text-align: center;
+    color: #262626;
+    height: 300px;
+    padding-top: 8em;
+    font-size: 1.em;
+    
+}
+
+span
+{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 24px;
+}
+
+#title1 {
+    font-size: 2em;
+  margin: 1em 0 0.8em;
+  color: #53633E;
+    line-height: 2em  
+}
+
+
+
+
+
 
 
 
@@ -184,6 +228,23 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+
+#content2 {
+
+    
+    background: url(../Images/cloth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1em;
+}
+
+#content3 {
+     margin-left: 7%;
+    margin-right: 7%;
+}
+
+
 
 
 #backimg {
@@ -198,21 +259,148 @@ footer {
 
 
 
+#box1 {
+    
+    background-color: #FCD33A;
+    float: right;
+    width: 50%;
+    color: #53633E;
+    font-size: 3.1vw;
+    line-height: 1.3;
+
+}
+
+#box2 {
+    
+    
+    float: left;
+    width: 50%;
+    height: 100%;
+    color: #53633E;
+    font-size: 6vw;
+    line-height: 1em;
+    background-color: white;
+
+}
+
+
+
+#fix {
+   color: white;
+    
+}
+
+
+#fixedtxt {
+    padding-top: 1.5em;
+    text-align:justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#fixedtxt2 {
+    padding-top: 5em;
+    text-align:justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+#maintxt {
+    
+    text-align:justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+#img1 {
+    
+    float: left;
+    margin-right: 1em;
+    height: 70%;
+    overflow: hidden;
+    
+}
 
 
 
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#smallprint {
+    font-size: 0.55em;
+    line-height: 1.7;
+    text-align:center;
+    
+}
 
 
 
+ul {
+    list-style-image: url(../Images/bullet.png);
+    margin-left: 6em;
+    line-height: 2.2em;
+    color: #53633E;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #53633E;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 1em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #FCD33A;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #687D4d;
+}
+ 
+
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
 
 
-
-
-
-
-
-
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+  }
 
 @media and screen (max-width: 600px)    {
      
